@@ -13,6 +13,7 @@ Professional-grade copytrading infrastructure engineered for MT4, MT5, cTrader, 
 
 ## What the Platform Delivers
 - **True cross-terminal replication**: Copy trades between MT4, MT5, cTrader, Tradovate, IBKR, or any supported API in any direction (e.g., MT5→MT4, MT5→cTrader, MT4→IBKR).
+- **Unified signal ingestion**: A single automation layer can scrape Telegram groups/channels or ingest provider APIs, trigger execution instantly, and relay the same signals via Telegram, Discord, WhatsApp, or email alerts.
 - **Ultra-low latency**: Co-located trade bridges, streaming sockets, and smart batching keep master-to-slave execution within 100–500 ms even across mixed broker stacks.
 - **Master/Slave orchestration**: Define master accounts, manage unlimited slave accounts, and synchronize positions, risk parameters, and lot multipliers in milliseconds.
 - **Flexible monetization**: Support subscription fees, performance fees, or profit-sharing automatically credited to service providers and master traders.
