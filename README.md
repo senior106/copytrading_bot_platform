@@ -1,6 +1,6 @@
 # Copytrading Bot & Platform
 
-Professional-grade copytrading infrastructure engineered for MT4, MT5, cTrader, Tradovate, IBKR, and other leading broker APIs—designed for seamless, real-time trade replication across accounts, brokers, and asset classes.
+Professional-grade forex copytrading bot and cross-platform copytrading solution engineered for MT4, MT5, cTrader, Tradovate, IBKR, and more—designed to replicate strategies across accounts, scrape Telegram trading channels, and push executions plus alerts through WhatsApp, Discord, and email in real time.
 
 ## Latency Analysis
 
@@ -9,11 +9,15 @@ Professional-grade copytrading infrastructure engineered for MT4, MT5, cTrader, 
 | ![MT5 Target History 1](target_history1.png) | ![MT5 Copy History 1](copy_history1.png) |
 | ![MT5 Target History 2](target_history2.png) | ![MT5 Copy History 2](copy_history2.png) |
 
+| Telegram Instant Order | Telegram pending order |
+| --- | --- |
+| ![Telegram Signal Parsing](telegram_to_mt4.jpg) | ![Telegram Pending Order Mapping](telegram_to_mt4_pending_order.jpg) |
+
 > Screens show MT5-to-MT5 mirroring; the same copy engine powers MT4↔MT5, MT5↔cTrader, MT4↔Tradovate, MT5↔IBKR, and other cross-broker routes.
 
 ## What the Platform Delivers
 - **True cross-terminal replication**: Copy trades between MT4, MT5, cTrader, Tradovate, IBKR, or any supported API in any direction (e.g., MT5→MT4, MT5→cTrader, MT4→IBKR).
-- **Unified signal ingestion**: A single automation layer can scrape Telegram groups/channels or ingest provider APIs, trigger execution instantly, and relay the same signals via Telegram, Discord, WhatsApp, or email alerts.
+- **Unified signal ingestion**: A single automation layer can scrape Telegram groups/channels (including parsing attached image signals), ingest provider APIs, trigger execution instantly, and relay the same signals via Telegram, Discord, WhatsApp, or email alerts.
 - **Ultra-low latency**: Co-located trade bridges, streaming sockets, and smart batching keep master-to-slave execution within 100–500 ms even across mixed broker stacks.
 - **Master/Slave orchestration**: Define master accounts, manage unlimited slave accounts, and synchronize positions, risk parameters, and lot multipliers in milliseconds.
 - **Flexible monetization**: Support subscription fees, performance fees, or profit-sharing automatically credited to service providers and master traders.
